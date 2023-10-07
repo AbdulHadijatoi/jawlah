@@ -169,7 +169,7 @@
                                 <img :src="kashierLogoUrl" alt="Kashier Logo" />
                                 <div class="mt-5 d-flex wizard-form">
                                     <button type="button" name="next" @click="saveBooking" class="btn btn-primary next action-button float-end" value="Next" >{{__('messages.book_now')}}</button>
-                                    <a  name="previous" @click="changeTab(1)" class="btn btn-link previous action-button-previous float-end me-1" value="Previous" >{{__('messages.cancel')}}</a>
+                                    <!-- <a  name="previous" @click="changeTab(1)" class="btn btn-link previous action-button-previous float-end me-1" value="Previous" >{{__('messages.cancel')}}</a> -->
                                 </div>                               
                             </div>                            
                         </div>
